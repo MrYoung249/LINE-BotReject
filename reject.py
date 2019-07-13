@@ -8,5 +8,5 @@ else:
     for groups in young.getGroupIdsInvited():
         print("Reject " + young.getGroup(groups).name)
         sleep(0.7)
-        maxbots.rejectGroupInvitation(groups)
+        young.rejectGroupInvitation(groups)
     print("\nYou reject" + str(int1) + "groups invitation")
